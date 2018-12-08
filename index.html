@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Iskravar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./build/styles.css">
+	<link href="favicon.ico" rel="icon" type="image/x-icon"/>
+	<script src="./build/blazy.min.js"></script>
+	<script>
+		var blazy = new Blazy( {
+			offset : 0
+		})
+		document.createElement("picture");
+	</script>
+</head>
+<body>
+	<header class="header container">
+		<span class="triangle"></span>
+		<a href="#" class="logo">
+			<img src="./build/images/logo.png" alt="Iskravar Logo">
+		</a>
+		<div class="top-nav-btn" id="js-top-nav-btn">
+			<i class="fas fa-bars"></i>
+		</div>
+		<div class="top-nav-wrapper">
+			<nav class="top-nav">
+				<a href="#" class="top-nav-item active-top-nav-item">domov</a>
+				<a href="https://www.google.com" class="top-nav-item" target="_blank">o podjeju</a>
+				<a href="#news" class="top-nav-item scroll-btn">ponudba</a>
+				<a href="#" class="top-nav-item" class="top-nav-item scroll-btn">posebna ponudba</a>
+				<a href="#" class="top-nav-item">novosti</a>
+				<a href="#" class="top-nav-item">zastopstva</a>
+				<a href="#" class="top-nav-item">kontakt</a>
+			</nav>
+		</div>
+	</header>
+	
+	<section class="slider-wrapper">
+		<div class="slider" id="js-main-slider">
+			<div class="slide">
+				<div class="slide-content container">
+					<div class="slide-left">
+						<div class="slide-header">
+							<span class="yellow">TIG - </span>Tungsten Inert Gas
+						</div>
+						<div class="slide-desc">
+							Pri Tungsten Inert Gas varilnih napravah električni oblok gori med volframovo elektrodo in varjencem. 
+						</div>
+						<div class="slide-text">
+							Oblok raztali kovino, ki se zlije. S tem nastane zvar. Kadar spoj varjenih delov ni pripravljen dovolj natančno je potrebno dodajati material naravnost v oblok. 
+						</div>
+						<a href="#" class="slide-button">
+							<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+						</a>
+					</div>
+					<div class="slide-right">
+						<img src="./build/images/tig.png" alt="Iskravar Tig 210">
+					</div>
+				</div>
+				<img class="slide-bg" src="./build/images/main-bg.png" alt="iskra background">
+			</div>
+			<div class="slide">
+				<div class="slide-content container">
+					<div class="slide-left">
+						<div class="slide-header">
+							<span class="yellow">TIG - </span>Tungsten Inert Gas
+						</div>
+						<div class="slide-desc">
+							Pri Tungsten Inert Gas varilnih napravah električni oblok gori med volframovo elektrodo in varjencem. 
+						</div>
+						<div class="slide-text">
+							Oblok raztali kovino, ki se zlije. S tem nastane zvar. Kadar spoj varjenih delov ni pripravljen dovolj natančno je potrebno dodajati material naravnost v oblok. 
+						</div>
+						<a href="#" class="slide-button">
+							<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+						</a>
+					</div>
+					<div class="slide-right">
+						<img src="./build/images/tig.png" alt="Iskravar Tig 210">
+					</div>
+				</div>
+				<img class="slide-bg" src="./build/images/main-bg.png" alt="iskra">
+			</div>
+		</div>
+	</section>
+	<div class="about-us container">
+		<div class="section-header">
+			Proizvodnja in prodaja varilne opreme
+		</div>
+		<div class="about-us-left">
+			<img class="about-us-years-img" src="./build/images/25_let.png" alt="25_let_z_vami">
+			<div class="about-us-header">
+				<h1>Iskra Varjenje d.o.o.</h1>
+				<h2>Tradicija proizvodnje varilne opreme.</h2>
+			</div>
+		</div>
+		<div class="about-us-right">
+			<div class="about-us-desc">
+				<strong>Iskra Varjenje, d.o.o.</strong> je od leta 1990 samostojno podjetje in nadaljuje tradicijo proizvodnje varilne opreme pod zaščiteno blagovno znamko ISKRAVAR, obenem pa varilcem zagotavlja vrhunske izdelke za varjenje drugih priznanih proizvajalcev (HBS, CEPRO, Aer Service)
+			</div>
+			<a href="" class="more-info-button">
+				<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+			</a>
+		</div>
+	</div>
+	<div class="block products-wrapper">
+		<div class="block-header">
+			Naši izdelki
+		</div>
+		<div class="block-subheader">
+			Profesionalna varilska oprema
+		</div>
+		<div class="products container">
+			<div class="product">
+				<div class="product-left">
+					<img src="./build/images/products/mig.png" alt="MIG MAG varilne naprave">
+				</div>
+				<div class="product-right">
+					<div class="product-title">
+						MIG MAG varilne naprave
+					</div>
+					<div class="product-desc">
+						MIG – Metal Inert Gas ter MAG – Metal Active Gas varilne naprave so namenjene elektroobločnemu varjenju v zaščiti plinov: CO2, Ar + CO2 ali čisti argon. 
+					</div>
+					<a href="#" class="more-info-button">
+						<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="product">
+				<div class="product-left">
+					<img src="./build/images/products/dodajni.png" alt="Dodajni material">
+				</div>
+				<div class="product-right">
+					<div class="product-title">
+						Dodajni material
+					</div>
+					<div class="product-desc">
+						Linija originalnega dodajnega materiala Iskravar je plod dolgoletnih preizkusov in iskanja optimalnih lastnosti tako žice kot elektrod. 
+					</div>
+					<a href="#" class="more-info-button">
+						<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="product">
+				<div class="product-left">
+					<img src="./build/images/products/tig.png" alt="TIG varilne naprave">
+				</div>
+				<div class="product-right">
+					<div class="product-title">
+						TIG varilne naprave
+					</div>
+					<div class="product-desc">
+						Pri Tungsten Inert Gas varilnih napravah električni oblok gori med volframovo elektrodo in varjencem. Oblok raztali kovino, ki se zlije. S tem nastane zvar. 
+					</div>
+					<a href="#" class="more-info-button">
+						<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="product">
+				<div class="product-left">
+					<img src="./build/images/products/gorilniki.png" alt="Gorilniki in pribor">
+				</div>
+				<div class="product-right">
+					<div class="product-title">
+						Gorilniki in pribor
+					</div>
+					<div class="product-desc">
+						Pri vsakem varjenju in rezanju se določeni deli med delom trošijo. To posebej velja za kontaktne šobe, vodilne vložke, plinske šobe, skratka predvsem za dele gorilnika.
+					</div>
+					<a href="#" class="more-info-button">
+						<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="product">
+				<div class="product-left">
+					<img src="./build/images/products/rezanje.png" alt="Naprave za rezaneje z zračno plazmo">
+				</div>
+				<div class="product-right">
+					<div class="product-title">
+						Naprave za rezaneje z zračno plazmo
+					</div>
+					<div class="product-desc">
+						Naprave za rezanje kovin z zračno plazmo delujejo na način, da električni oblok raztali kovino, zrak pod tlakom pa jo odpihne. Deloma kovina tudi zgori. 
+					</div>
+					<a href="#" class="more-info-button">
+						<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="product">
+				<div class="product-left">
+					<img src="./build/images/products/sec.png" alt="Zaščitna oprema">
+				</div>
+				<div class="product-right">
+					<div class="product-title">
+						Zaščitna oprema
+					</div>
+					<div class="product-desc">
+						Za varno in uspešno varjenje potrebuje varilec kvalitetno zaščitno opremo: Zaščitna varilna maska; elektronska, z zračnim filtrom, zaščitne rokavice, varilski predpasnik, ...
+					</div>
+					<a href="#" class="more-info-button">
+						<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="product">
+				<div class="product-left">
+					<img src="./build/images/products/rel.png" alt="REL naprave">
+				</div>
+				<div class="product-right">
+					<div class="product-title">
+						REL naprave
+					</div>
+					<div class="product-desc">
+						Naprave za ročno obločno varjenje oplaščenih elektrod so uporabne v najrazličnejših okoljih. Od najmanjših, prenosnih, za domačo rabo do aparatov za težko delo v industriji.
+					</div>
+					<a href="#" class="more-info-button">
+						<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="acc-wrapper">
+		<div class="acc container">
+			<div class="acc-header">
+				Dodajni materiali in pribor
+			</div>
+			<div class="acc-slider" id="js-acc-slider">
+				<div class="acc-item">
+					<div class="acc-item_img">
+						<img src="./build/images/accs/dodajni.png" alt="Aluminijasta žica">
+						<div class="offer offer-sale">AKCIJA</div>
+					</div>
+					<div class="acc-item_title">
+						Aluminijasta žica
+					</div>
+					<a href="#" class="acc-item_req">
+						Povpraševanje
+					</a>
+				</div>
+				<div class="acc-item">
+					<div class="acc-item_img">
+						<img src="./build/images/accs/ine.png" alt="Polnjena žica">
+					</div>
+					<div class="acc-item_title">
+						Polnjena žica
+					</div>
+					<a href="#" class="acc-item_req">
+						Povpraševanje
+					</a>
+				</div>
+				<div class="acc-item">
+					<div class="acc-item_img">
+						<img src="./build/images/accs/acc_3.png" alt="Univerzalna pobakrena Fe žica">
+					</div>
+					<div class="acc-item_title">
+						Univerzalna pobakrena Fe žica
+					</div>
+					<a href="#" class="acc-item_req">
+						Povpraševanje
+					</a>
+				</div>
+				<div class="acc-item">
+					<div class="acc-item_img">
+						<div class="offer offer-new">NOVO</div>
+						<img src="./build/images/accs/acc_4.png" alt="INOX dodajni material za TIG ">
+					</div>
+					<div class="acc-item_title">
+						INOX dodajni material za TIG 
+					</div>
+					<a href="#" class="acc-item_req">
+						Povpraševanje
+					</a>
+				</div>
+				<div class="acc-item">
+					<div class="acc-item_img">
+						<img src="./build/images/accs/dodajni.png" alt="Aluminijasta žica">
+					</div>
+					<div class="acc-item_title">
+						Aluminijasta žica
+					</div>
+					<a href="#" class="acc-item_req">
+						Povpraševanje
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block agents-wrapper container">
+		<div class="block-header">
+			zastopstva
+		</div>
+		<div class="agent-items-wrapper">
+			<div class="agent-items">
+				<div class="ag-item item1">
+					<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/agents_tr/ag_1.png" alt="varjenje"
+					class="b-lazy">
+				</div>
+				<div class="ag-item item2">
+					<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/agents_tr/ag_2.png" alt="varjenje"
+					class="b-lazy">
+				</div>
+				<div class="ag-item item3">
+					<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/agents_tr/ag_3.png" alt="Logo Aeroservice"class="b-lazy">
+				</div>
+				<div class="ag-item item4">
+					<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/agents_tr/ag_4.png" alt="varjenje"
+					class="b-lazy">
+				</div>
+				<div class="ag-item item5">
+					<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/agents_tr/ag_5.png" alt="Logo Cepro"
+					class="b-lazy">
+				</div>
+				<div class="ag-item item6">
+					<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/agents_tr/ag_6.png" alt="varjenje CD 3101"class="b-lazy">
+				</div>
+				<div class="ag-item item7">
+					<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/agents_tr/ag_7.png" alt="varjenje"
+					class="b-lazy">
+				</div>
+				<div class="ag-item item8">
+					<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/agents_tr/ag_8.png" alt="Logo HBS"
+					class="b-lazy">
+				</div>
+				<div class="ag-item item9">
+					<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/agents_tr/ag_9.png" alt="varjenje orodje"
+					class="b-lazy">
+				</div>
+			</div>
+			<div class="info">
+				<div class="info-header">
+					Podjetje Iskra Varjenje
+				</div>
+				<div class="info-text">
+					je zastopnik priznanih proizvajalcev varilne opreme in dodatkov. V ponudbi imamo vijake, čepe, sidra za izolacijo, zaščitne materiale, zavese, odsesovalne sisteme in druge izdelke podjetij HBS; CEPRO in AER SERVICE.
+				</div>
+				<a href="#" class="more-info-button">
+					<span>Preberi več</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="advantages-wrapper">
+		<div class="bg-image">
+			<img 	src="./build/images/loading_placeholder.jpg"
+					data-src="./build/images/iskra-bg.png"
+					alt="iskra backgroud"
+					class="b-lazy">
+			<div class="overlay"></div>
+		</div>
+		<div class="advantages container">
+			<div class="a-left">
+				<img 	src="./build/images/loading_placeholder.jpg"
+						data-src="./build/images/mj.png"
+						alt="človek planner"
+						class="b-lazy">
+			</div>
+			<div class="a-right">
+				<div class="adv-header">
+					Zakaj naše naprave
+				</div>
+				<ul class="adv-list">
+					<li><span>ker so enostavne za uporabo in vzdrževanje</span></li>
+					<li><span>ker je nakup le-teh varna naložba zaradi visoke kakovosti</span></li>
+					<li><span>ker imamo konkurenčne cene za <span class="yellow"> kvalitetne izdelke</span></span></li>
+					<li><span>ker imamo dolgoletne izkušnje na področju proizvodnje varilnih naprav</span></li>
+					<li><span>ker so aparati narejeni robustno</span></li>
+					<li><span>ker imamo širok asortiman izdelkov</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="news-wrapper">
+		<div class="news container">
+			<div class="section-header">
+				Zakaj izbrati naše naprave
+			</div>
+			<div class="block-header" id="news">
+				Novosti in obvestila
+			</div>
+			<div class="news-items">
+				<div class="news-item">
+					<div class="news-item_img">
+						<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/news/varilnih_naprav.png" alt="varilnih naprav" class="b-lazy">
+					</div>
+					<div class="news-item_title">Akcija - kalibracija varilnih naprav</div>
+					<div class="news-item_desc">
+						Izvajamo validacijo vseh vrst varilnih naprav na način, da preverjamo ali sta varilni tok in varilna napetost enaka izmerjeni oz. prikazani na instrumentu na napravi.
+					</div>
+					<a href="#" class="more-info-button">
+						<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+					</a>
+				</div>
+				<div class="news-item">
+					<div class="news-item_img">
+						<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/news/mig_200i.png" alt="MIG 200i multi" class="b-lazy">
+					</div>
+					<div class="news-item_title">Prenosni multifunkcijski varilni aparat - MIG 200i multi</div>
+					<div class="news-item_desc">
+						Prenosna in univerzalna naprava lahko zahvaljujoč inverterski tehniki vari po štirih postopkih. Osnovni namen naprave je MIG varjenje z žico v zaščiti plina ali brez.
+					</div>
+					<a href="#" class="more-info-button">
+						<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+					</a>
+				</div>
+				<div class="news-item">
+					<div class="news-item_img">
+						<img src="./build/images/loading_placeholder.jpg" data-src="./build/images/news/storojno.png" alt="zrak plazemski stroj" class="b-lazy">
+					</div>
+					<div class="news-item_title">Koordinatni rezalnik za rezanje z zračno plazmo</div>
+					<div class="news-item_desc">
+						Zares kvalitetno rezanje z zračno plazmo je mogoče edino s pomočjo avtomatizacije. Koordinatni rezalnik UNI-CUT 1x1 je vstopna točka v svet avtomatiziranega rezanja s kompaktnimi merami...
+					</div>
+					<a href="#" class="more-info-button">
+						<span>Preberi več</span><i class="fas fa-angle-double-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="f-links">
+				<div class="f-subheader">
+					Povezave
+				</div>
+				<ul class="f-list">
+					<li class="f-list-link"><a href="#">Domov</a></li>
+					<li class="f-list-link"><a href="#">O podjetju</a></li>
+					<li class="f-list-link"><a href="#">Ponudba</a></li>
+					<li class="f-list-link"><a href="#">Posebna ponudba</a></li>
+				</ul>
+				<ul class="f-list">
+					<li class="f-list-link"><a href="#">Novosti</a></li>
+					<li class="f-list-link"><a href="#">Zastopstva</a></li>
+					<li class="f-list-link"><a href="#">Kontakt</a></li>
+				</ul>
+			</div>
+			<div class="address">
+				<div class="f-subheader">
+					Naslov
+				</div>
+				<ul class="f-list">
+					<li class="f-list-link">Iskra Varjenje d.o.o.</li>
+					<li class="f-list-link">
+							<i class="fas fa-map-marker-alt"></i>
+							Stegne 21 C/1,</br>
+							1000 Ljubljana
+					</li>
+					<li class="f-list-link">
+						<a href="#">
+							<img src="./build/images/f-logo.png" alt="logo_iskravar">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="contacts">
+				<div class="f-subheader">
+					Kontakt
+				</div>
+				<ul class="f-list">
+					<li class="f-list-link">
+						<a href=tel:+386 1/511 13 01"><i class="fas fa-phone"></i>+386 1/511 13 01</a>
+					</li>
+					<li class="f-list-link">
+						<a href="tel:+386 1/ 511 14 80"><i class="fas fa-fax"></i>+386 1/ 511 14 80</a>
+					</li>
+					<li class="f-list-link">
+						<a href="mailto:info@iskra-varjenje.s"><i class="fas fa-envelope"></i>info@iskra-varjenje.s</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="copyright">
+			© Izdelava spletne strani
+		</div>
+	</footer>
+
+
+	<!-- <script src="./app/libs/jquery.min.js"></script>
+	<script src="./app/libs/slick.min.js"></script>
+	<script src="./app/js/main.js"></script> -->
+	<script src="./build/all.js"></script>
+	
+</body>
+</html>
